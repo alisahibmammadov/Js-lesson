@@ -1,0 +1,95 @@
+/* .head{
+    color: red;
+} */
+/* .danger{
+    background: red;
+} */
+body {
+  background: blue;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo-list {
+  width: 600px;
+  min-height: 500px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 20px;
+}
+.input-box {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+}
+.input-box input {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  outline: none;
+  border: 1px solid #0073ff;
+  padding-left: 10px;
+  background: #ccc;
+}
+.input-box button {
+    margin-top: 10px;
+  height: 40px;
+  width: 100px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  border: transparent;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background: rgb(81, 81, 255);
+}
+.input-box button:hover {
+  background: blue;
+  cursor: pointer;
+}
+.list-box {
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+}
+.list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.paraqraf {
+  width: 70%;
+  background: #c1e5c5;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid blue;
+}
+.tamam{
+    text-decoration: line-through;
+}
+.tamamla{
+    background: green;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+}
+.delete{
+    background: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+
+}
